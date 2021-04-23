@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kirsi Kauppinen">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/kauppinen.css">
+    <title>Visa, Immeisten Iisalmi :: KK</title>
+</head>
+
+<body>
+    <main class="container-fluid">
+        <header class="row pt-4">
+            <div class="col-12">
+                <h1 class="my-3">Immeisten Iisalmi</h1>
+            </div>
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <div class="container-fluid px-0">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#valikko"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="valikko">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item me-3">
+                                    <a class="nav-link" aria-current="page" href="index.html">Kaupunkini</a>
+                                </li>
+                                <li class="nav-item me-3">
+                                    <a class="nav-link" href="tourists-kk.html">Turisteille</a>
+                                </li>
+                                <li class="nav-item me-3">
+                                    <a class="nav-link" href="images-kk.html">Kuvat</a>
+                                </li>
+                                <li class="nav-item me-3">
+                                    <a class="nav-link" href="parallax-kk.html">Parallax</a>
+                                </li>
+                                <li class="nav-item me-3">
+                                    <a class="nav-link active" href="quiz-kk.html">Visa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="bmi-kk.html">BMI</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+        </header>
+
+        <section class="row py-5 px-2">
+            <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2">
+                <h2>Visa!</h2>
+                <p>Iisalmi on mukava kaupunki. Testaa, onko sinusta Iisalmelaiseksi!</p>
+            </div>
+            <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2 border-top border-3">
+                <p>1: Kuinka monta asiakaspaikkaa on ravintola Kuapissa?</p>
+                <ul class="list-unstyled">
+                    <li>
+                        <input type="radio" id="q11" name="question1" class="answer form-check-input" value="0">
+                        <label for="q11" class="ms-2">6</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q12" name="question1" class="answer form-check-input" value="1">
+                        <label for="q12" class="ms-2">2</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q13" name="question1" class="answer form-check-input" value="0">
+                        <label for="q13" class="ms-2">14</label>
+                    </li>
+                </ul>
+                <p class="unvisible" id="question1">Sisällä on vain kaksi asiakaspaikkaa! Ravintola Kuappi on tituleerattu
+                    maailman pienimmäksi ravintolaksi, ja Guinnessin ennätysten kirjaan se on päässyt vuonna 1994. Alunperin
+                    Kuappi on rakennettu VR:n ratavartijan taukotuvaksi v. 1907.
+                </p>
+            </div>
+            <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2 border-top border-3">
+                <p>2: Mitä tapahtumaa juhlitaan Iisalmessa tänä vuonna?</p>
+                <ul class="list-unstyled">
+                    <li>
+                        <input type="radio" id="q21" name="question2" class="answer form-check-input" value="1">
+                        <label for="q21" class="ms-2">Iisalmi 130 vuotta</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q22" name="question2" class="answer form-check-input" value="0">
+                        <label for="q22" class="ms-2">Uuden uimahallin avajaiset</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q23" name="question2" class="answer form-check-input" value="0">
+                        <label for="q23" class="ms-2">Juhani Ahon syntymästä 160 vuotta.</label>
+                    </li>
+                </ul>
+                <p class="unvisible" id="question2">Iisalmi muuttui kauppalasta kaupungiksi Suomen senaatin päätöksellä 
+                    20.10.1891, joten tänä vuonna Iisalmessa vietetään 130 -vuotisjuhlaa. Juhlan teemana on koko kaupunkia 
+                    osallistava ja yhteisöllinen tekeminen, sillä Iisamessa ihmeet syntyvät tunnetusti yhdessä tekemällä. 
+                    Iisalmelaiset pääsivätkin jo edellisenä yhdessä äänestämään teemavuodelle parhaita tapahtumia.
+                </p>
+            </div>
+            <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2 border-top border-3">
+                <p>3: Miksi Runnirock -musiikkitapahtumaa olisi ensimmäisenä vuonna nimittää?</p>
+                <ul class="list-unstyled">
+                    <li>
+                        <input type="radio" id="q31" name="question3" class="answer form-check-input" value="0">
+                        <label for="q31" class="ms-2">Heavy metal -festarit</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q32" name="question3" class="answer form-check-input" value="1">
+                        <label for="q32" class="ms-2">Kumpparifestarit</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q33" name="question3" class="answer form-check-input" value="0">
+                        <label for="q33" class="ms-2">Lammas -festarit</label>
+                    </li>
+                </ul>
+                <p class="unvisible" id="question3">Runnirock järjestettiin ensimmäisen kerran Iisalmen Runnilla 
+                    kylpylähotellin läheisellä pellolla. Koska tapahtuman aikaan satoi erittäin paljon, oli koko pelto 
+                    mutavellinä. Tämä ei rock -kansaa kuitenkaan haitannut, vaan kävijät pitivät rennosta tapahtumasta
+                    maalaisilmapiirissä. Vuodesta 2015 Runnirock on kuitenkin järjestetty Iisalmen keskustassa parempien 
+                    liikenneyhteyksien äärellä.
+                </p>
+            </div>
+            <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2 border-top border-3">
+                <p>4: Mikä on Iisalmen suurin ja ehkäpä tunnetuin kesäjuhla?</p>
+                <ul class="list-unstyled">
+                    <li>
+                        <input type="radio" id="q41" name="question4" class="answer form-check-input" value="0">
+                        <label for="q41" class="ms-2">Terva-ajot</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q42" name="question4" class="answer form-check-input" value="0">
+                        <label for="q42" class="ms-2">Limuset</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q43" name="question4" class="answer form-check-input" value="1">
+                        <label for="q43" class="ms-2">Oluset</label>
+                    </li>
+                </ul>
+                <p class="unvisible" id="question4">Oluset on Suomen suurin ja vanhin olutjuhla. Laajan juomatarjonnan 
+                    lisäksi viikonlopun kestävässä tapahtumassa nautitaan myös musiikista. Ennen olusia alueella vietetään 
+                    koko perheen Limuset -tapahtumaa. Molempia tapahtumia sponsoroi paikallinen yritys Olvi.
+                </p>
+            </div>
+            <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2">
+                <p id="right_answers"></p>
+            </div>
+        </section>
+
+        <footer class="row py-2">
+            <div class="col-12 col-sm-6 text-center text-md-start">
+                <p>Kirsi Kauppinen</p>
+                <p>2021</p>
+            </div>
+            <div class="col-12 col-sm-6 text-center text-md-end">
+                <p>Bootstrap and jQuery</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/quiz.js" type="text/javascript"></script>
+
+</body>
+</html>

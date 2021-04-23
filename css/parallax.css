@@ -1,0 +1,89 @@
+body,
+html {
+  height: 100%;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 100%;
+}
+
+.parallax {
+  position: relative;
+  opacity: 0.8;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.caption span.border {
+  padding: 18px;
+  font-size: 1.5em;
+  letter-spacing: 8px;
+  line-height: 2em;
+}
+
+.text {
+  padding: 30px 100px 30px 100px;
+  position: relative;
+}
+
+.blue {
+  color: white;
+  background-color: #314c80;
+}
+
+.yellow {
+  color: #fff;
+  background-color: #ffc105;
+}
+
+.text h3 {
+  text-align: center;
+}
+
+.wide {
+    padding: 0 12px;
+}
+
+#img-1 {
+  background-image: url("../img/satama.jpeg");
+  height: 60%;
+}
+
+#img-2 {
+  background-image: url("../img/kauppahalli.jpeg");
+  height: 80%;
+}
+
+#img-3 {
+  background-image: url("../img/seurahuone.jpeg");
+  height: 80%;
+}
+
+#img-4 {
+  background-image: url("../img/raatihuone.jpeg");
+  height: 80%;
+}
+
+#img-5 {
+    background-image: url("../img/nuorisotalo.jpeg");
+    height: 80%;
+}
+
+@media screen and (max-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+
+  .text {
+    padding: 30px 10px 30px 10px;
+    position: relative;
+  }
+}

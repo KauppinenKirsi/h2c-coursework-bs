@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Montserrat&display=swap');
+
+/* Layout */
+header {
+    background-color: #ffc105;
+}
+
+section {
+    background-color: #fffcf5;
+}
+
+nav {
+    background-color: #314c80;
+}
+
+footer {
+    background-color: #ffc105;
+    color: #fff;
+}
+
+footer div p {
+    margin-bottom: 0;
+}
+
+/* Headings and text */
+h1,
+h2,
+h3 {
+    font-family: 'Inknut Antiqua', serif;
+}
+
+h1 {
+    color: #fffcf5;
+}
+
+h2,
+h3 {
+    color: #314c80;
+}
+
+.text.blue h3 {
+    color: #ffc105;
+}
+
+.blue-text {
+    color: #314c80;
+}
+
+/* Links */
+nav a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #314c80;
+}
+
+a:hover {
+    color: #ffc105;
+}
+
+.list-group a:hover {
+    background-color: #314c80;
+    color: #fffcf5;
+}
+
+/* Accordion */
+.accordion-button {
+    background-color: #ffc105;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+   background-color: #314c80;
+   color: #fffcf5;
+}
+
+.accordion-body {
+   background-color: #fff;
+}
+
+.unvisible {
+    display: none;
+}
+
+.bg-blue {
+    background-color: #314c80;
+    color: #fff;
+}
+
